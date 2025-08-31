@@ -1,0 +1,30 @@
+{
+  "scenario": "performance_regression",
+  "description": "Simulates a 25% performance degradation in HTTP handler latency",
+  "baseline": {
+    "repo": "testorg/test-project", 
+    "component": "http_handler_latency",
+    "samples": [
+      {"commit": "base001", "value": 120.5, "timestamp": 1725094800},
+      {"commit": "base002", "value": 118.2, "timestamp": 1725098400},
+      {"commit": "base003", "value": 122.8, "timestamp": 1725102000},
+      {"commit": "base004", "value": 119.7, "timestamp": 1725105600},
+      {"commit": "base005", "value": 121.1, "timestamp": 1725109200}
+    ],
+    "calculated_baseline": 120.46,
+    "standard_deviation": 1.84
+  },
+  "regression_data": {
+    "commit": "regr001",
+    "value": 152.3,
+    "timestamp": 1725112800,
+    "percent_change": 26.4,
+    "expected_detection": true,
+    "confidence_threshold": 95.0
+  },
+  "configuration": {
+    "threshold_percent": 15.0,
+    "min_samples": 5,
+    "detection_method": "percentage_change"
+  }
+}

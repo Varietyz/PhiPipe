@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "component": "regression",
+      "operation": "detection",
+      "duration_ns": 1209805,
+      "iterations": 6222,
+      "memory_bytes": 47237856,
+      "allocations": 2065598,
+      "timestamp": 1756669469
+    },
+    {
+      "component": "regression",
+      "operation": "baseline_calculation",
+      "duration_ns": 2,
+      "iterations": 474272494,
+      "memory_bytes": 0,
+      "allocations": 0,
+      "timestamp": 1756669471
+    },
+    {
+      "component": "integration",
+      "operation": "database_write",
+      "duration_ns": 0,
+      "iterations": 1000000000,
+      "memory_bytes": 0,
+      "allocations": 0,
+      "timestamp": 1756669471
+    },
+    {
+      "component": "integration",
+      "operation": "database_read",
+      "duration_ns": 0,
+      "iterations": 1000000000,
+      "memory_bytes": 0,
+      "allocations": 0,
+      "timestamp": 1756669471
+    },
+    {
+      "component": "memory",
+      "operation": "json_processing",
+      "duration_ns": 31,
+      "iterations": 37867072,
+      "memory_bytes": 0,
+      "allocations": 0,
+      "timestamp": 1756669472
+    },
+    {
+      "component": "concurrent",
+      "operation": "parallel_analysis",
+      "duration_ns": 0,
+      "iterations": 1000000000,
+      "memory_bytes": 992,
+      "allocations": 27,
+      "timestamp": 1756669473
+    }
+  ],
+  "go_version": "go1.25.0",
+  "goos": "windows",
+  "goarch": "amd64",
+  "timestamp": 1756669473
+}

@@ -1,0 +1,12 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /health                   --> regression-ci/internal/server.(*Server).healthCheck-fm (3 handlers)
+[GIN-debug] POST   /webhook                  --> regression-ci/internal/server.(*Server).handleWebhook-fm (3 handlers)
+[GIN-debug] POST   /analyze                  --> regression-ci/internal/server.(*Server).analyzeEndpoint-fm (3 handlers)
+[GIN-debug] GET    /config/:repo             --> regression-ci/internal/server.(*Server).getRepoConfig-fm (3 handlers)
+[GIN-debug] PUT    /config/:repo             --> regression-ci/internal/server.(*Server).updateRepoConfig-fm (3 handlers)
+{"level":"info","address":":8080","time":1756669473,"message":"starting server"}
+{"level":"info","client_ip":"::1","method":"GET","path":"/health","status":200,"latency":0.6303,"time":1756669476,"message":"request completed"}
+{"level":"info","client_ip":"::1","method":"POST","path":"/analyze","status":200,"latency":8.0221,"time":1756669476,"message":"request completed"}

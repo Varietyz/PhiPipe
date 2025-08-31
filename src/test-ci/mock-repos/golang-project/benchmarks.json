@@ -1,0 +1,22 @@
+{
+  "repo": "testorg/golang-project",
+  "branch": "main",
+  "commit": "abc123def456",
+  "timestamp": 1725098400,
+  "components": {
+    "http_handler_latency": 125.5,
+    "database_query_time": 45.2,
+    "json_marshal_time": 12.8,
+    "memory_allocation": 2048576,
+    "cpu_usage_percent": 23.4,
+    "throughput_rps": 1250.0,
+    "error_rate_percent": 0.02,
+    "cache_hit_ratio": 94.5
+  },
+  "metadata": {
+    "go_version": "1.21.0",
+    "test_duration": "5m",
+    "load_pattern": "constant",
+    "environment": "ci"
+  }
+}

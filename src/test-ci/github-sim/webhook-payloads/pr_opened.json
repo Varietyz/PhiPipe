@@ -1,0 +1,74 @@
+{
+  "action": "opened",
+  "number": 123,
+  "pull_request": {
+    "id": 789456123,
+    "number": 123,
+    "state": "open",
+    "title": "Add performance optimization to core algorithm",
+    "user": {
+      "login": "developer",
+      "id": 12345,
+      "type": "User"
+    },
+    "body": "This PR optimizes the core algorithm to improve throughput by 15%.\n\nBenchmark results:\n- Algorithm A: 1200ms -> 1020ms\n- Algorithm B: 850ms -> 722ms\n- Memory usage: 45MB -> 39MB",
+    "created_at": "2025-08-31T10:30:00Z",
+    "updated_at": "2025-08-31T10:30:00Z",
+    "head": {
+      "label": "feature/performance-optimization",
+      "ref": "feature/performance-optimization",
+      "sha": "abc123def456789",
+      "repo": {
+        "id": 654321,
+        "name": "test-project",
+        "full_name": "testorg/test-project",
+        "owner": {
+          "login": "testorg",
+          "id": 98765,
+          "type": "Organization"
+        },
+        "private": false,
+        "default_branch": "main"
+      }
+    },
+    "base": {
+      "label": "main",
+      "ref": "main", 
+      "sha": "def789abc123456",
+      "repo": {
+        "id": 654321,
+        "name": "test-project",
+        "full_name": "testorg/test-project",
+        "owner": {
+          "login": "testorg",
+          "id": 98765,
+          "type": "Organization"
+        },
+        "private": false,
+        "default_branch": "main"
+      }
+    }
+  },
+  "repository": {
+    "id": 654321,
+    "name": "test-project",
+    "full_name": "testorg/test-project",
+    "owner": {
+      "login": "testorg",
+      "id": 98765,
+      "type": "Organization"
+    },
+    "private": false,
+    "default_branch": "main"
+  },
+  "organization": {
+    "login": "testorg",
+    "id": 98765,
+    "type": "Organization"
+  },
+  "sender": {
+    "login": "developer",
+    "id": 12345,
+    "type": "User"
+  }
+}

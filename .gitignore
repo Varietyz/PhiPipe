@@ -23,3 +23,12 @@ go.work.sum
 
 # env file
 .env
+TODO.md
+3.project_analysis.py
+go.sum
+init.bat
+build.bat
+config.yaml
+PROJECT_CODEBASE.md
+test.bat
+start-server.bat
